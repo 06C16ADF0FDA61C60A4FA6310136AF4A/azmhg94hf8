@@ -37,6 +37,7 @@ class Grid:
         del self.bdata[y]
         del self.ndata[y]
         self.h-=1
+        #comment
     def subcol(self,x):
         for r in range(self.h):
             del self.bdata[r][x]
